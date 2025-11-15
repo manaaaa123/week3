@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background: linear-gradient(to right, #ece9e6, #ffffff); 
+}
+
+body {
+    padding-bottom: 5%;
+}
+
+header {
+    text-align: center;
+    background-color: #1a1a2e; 
+    color: #f0f0f0;
+    font-weight: 700;
+    padding: 40px 20px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    text-align: center;
+    width: 260px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+    background-color: #ffe6f0; 
+}
+
+.hobbies {
+    background-color: #e6f7ff; 
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 25px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #ccc;
+    color: #555;
+    letter-spacing: 0.5px;
+}
